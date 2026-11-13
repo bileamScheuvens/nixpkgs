@@ -7,7 +7,7 @@
 }:
 
 buildPythonPackage rec {
-  pname = "jumpy";
+  pname = "jax-jumpy";
   version = "1.0.0";
 
   src = fetchFromGitHub {
